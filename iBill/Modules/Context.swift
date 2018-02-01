@@ -8,16 +8,29 @@
 
 import Foundation
 
-
 public class Context {
-    static public let context = Context()
+    static public let iBill = Context()
+    
+    /* ------------------------------ */
+    // StandAlone Modules
+    private let accountMao = AccountMao()
+    private let iconsMao = IconsMao()
+    private let spTypeMao = SPTypeMao()
+    private let budgetMao = BudgetMao()
+    private let spMoneyMao = SPMoneyMao()
+    
+    // Account Model
+    public lazy var acModel: AccountModel = {
+        return ACModelImpl(acServer: acServer, acMao: accountMao)
+    }()
+    private let acServer = ACServerImpl()
+    
+    
+    // Account ViewModel
+
+    
     
     private init() {
-        self.getModules()
-    }
-    
-    private func getModules() {
-    
     }
     
 }

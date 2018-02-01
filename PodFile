@@ -6,4 +6,5 @@ target 'iBill' do
 	pod 'Alamofire', '~> 4.5'
 	pod 'CryptoSwift' 
 	pod 'SwiftyJSON'
+	pod 'Alamofire-Synchronous', '~> 4.0'
 end

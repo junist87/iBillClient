@@ -29,18 +29,19 @@ public class IconsMao: Mao {
             
             NSLog("Line \(line)")
             let component = line.components(separatedBy: " ")
-            if (component.count == 1) {
+            // 남은 문자가 4마디 보다 적으면 읽기를 중단한다
+            if (component.count < 4) {
                 break
             }
             let fileId = component[0]
             let filename = component[1]
             let name = component[2]
             let size = Int(component[3])
-            _ = self.addIcons(fileId: fileId, filename: filename, name: name, size: size!)
+            _ = self.create(fileId: fileId, filename: filename, name: name, size: size!)
         }
     }
     
-    public func addIcons(fileId: String, filename: String, name: String, size: Int) -> Bool {
+    public func create(fileId: String, filename: String, name: String, size: Int) -> Bool {
         let iconsMO = super.getNewMo("Icons") as! IconsMO
         
         iconsMO.fileId = fileId
@@ -52,7 +53,7 @@ public class IconsMao: Mao {
         return super.commit()
     }
     
-    public func getIcon(fileId: String) -> (filename: String, name: String, size: Int)! {
+    public func read(fileId: String) -> (filename: String, name: String, size: Int)! {
         let fetch: NSFetchRequest<IconsMO> = IconsMO.fetchRequest()
         let pred = NSPredicate(format: "fileId = %@", fileId)
         fetch.predicate = pred
@@ -63,12 +64,13 @@ public class IconsMao: Mao {
                 // 가저온 데이터가 없다면 nil 값을 리턴한다.
                 return nil
             } else {
+                // 가저온 데이터중 첫번째 레코드를 출력한다.
                 let icon = resultSet[0]
+                // 옵셔너 체이닝
                 if let filename = icon.filename, let name = icon.name {
                     return (filename, name, Int (icon.size))
                 }
                 return nil
-                
             }
         } catch {
             // 기타 예외 사항이 생기면 nil 값을 리턴한다.
@@ -76,7 +78,7 @@ public class IconsMao: Mao {
         }
     }
     
-    public func removeAll() {
+    public func deleteAll() {
         super.deleteAll(entity: "Icons")
     }
 }

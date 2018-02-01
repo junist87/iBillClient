@@ -9,9 +9,9 @@
 import Foundation
 import CoreData
 
-class AccountMao: Mao{
+public class AccountMao: Mao{
     
-    public func setAccount(email: String, passwd: String) -> Bool {
+    public func create(email: String, passwd: String) -> Bool {
         let account =  super.getNewMo("Account") as! AccountMO
         
         account.email = email
@@ -22,7 +22,7 @@ class AccountMao: Mao{
         return super.commit()
     }
     
-    public func getRecentlyAccount() -> (email: String, passwd: String, regDate: Date, uuid: UUID)? {
+    public func readRecently() -> (email: String, passwd: String, regDate: Date, uuid: UUID)? {
         let fetch: NSFetchRequest<AccountMO> = AccountMO.fetchRequest()
         let sort = NSSortDescriptor(key: "regDate", ascending: false)   // 최근데이터순으로 정렬
         fetch.sortDescriptors = [sort]
@@ -42,7 +42,7 @@ class AccountMao: Mao{
     }
     
     
-    public func deleteAllAccountMO() {
+    public func deleteAll() {
         super.deleteAll(entity: "Account")
     }
     

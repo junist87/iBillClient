@@ -28,7 +28,7 @@ class IconsMaoTest: XCTestCase {
     func testImportIcons() {
         iconsMao.importIconList()
         
-        if let icon = iconsMao.getIcon(fileId : "A1") {
+        if let icon = iconsMao.read(fileId : "A1") {
             NSLog("\(icon.filename) \(String(describing: icon.name)) \(icon.size)")
         }
         

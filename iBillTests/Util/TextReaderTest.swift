@@ -32,7 +32,7 @@ class TextReaderTest: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
       
         let getString = textReader.getText(filename: "iconList")
-        NSLog("출력결과 \n\(getString)")
+        NSLog("출력결과 \n\(getString ?? "텍스트가 없습니다")")
     }
     
 //    func testPerformanceExample() {

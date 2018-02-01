@@ -17,7 +17,7 @@ class AccountMaoTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         accountMao = AccountMao()
-        accountMao.deleteAllAccountMO()
+        accountMao.deleteAll()
         
     }
     
@@ -32,13 +32,13 @@ class AccountMaoTest: XCTestCase {
         let testSize = 100
         
         // 데이터베이스에 아무것도 없을 때에는 정보를 불러올수 없다.
-        guard let _ = accountMao.getRecentlyAccount() else {
+        guard let _ = accountMao.readRecently() else {
             for _ in 1 ... testSize {
                 let email = sampler.getRandomEmail()
                 let passwd = sampler.getRandomPasswd()
                 
-                _ = accountMao.setAccount(email: email, passwd: passwd)
-                let getAccount = accountMao.getRecentlyAccount()
+                _ = accountMao.create(email: email, passwd: passwd)
+                let getAccount = accountMao.readRecently()
                 
                 NSLog("uuid \(String(describing: getAccount?.uuid))" )
                 XCTAssertEqual(getAccount?.email, email, "이메일이 틀립니다.")

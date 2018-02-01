@@ -11,7 +11,7 @@ import CoreData
 import UIKit
 
 public class Mao {
-    final let context: NSManagedObjectContext = {
+    final lazy var context: NSManagedObjectContext = {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.persistentContainer.viewContext
     }()
@@ -19,11 +19,11 @@ public class Mao {
     final func commit() -> Bool{
         do {
             try context.save()
-            NSLog("코어데이터 업데이트됨")
+            NSLog("CoreData Commit")
             return true
         } catch {
             context.rollback()
-            NSLog("코어데이터 업데이트 실패")
+            NSLog("CoreData RollBack")
             return false
         }
     }
@@ -51,6 +51,12 @@ public class Mao {
             }
         } catch let error as NSError {
             print("Detele all data in \(entity) error : \(error) \(error.userInfo)")
+        }
+    }
+    
+    final func delete(_ resultSet: [NSManagedObject]) {
+        for result in resultSet {
+            _ = self.delete(mo: result)
         }
     }
     
