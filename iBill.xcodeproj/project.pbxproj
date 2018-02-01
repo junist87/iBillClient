@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC0C67C5877C2F00BECEC87 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */; };
 		7CBAB096A5461810D6A4A121 /* Pods_iBill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89268E954676FD783A0CE87F /* Pods_iBill.framework */; };
 		BD0A6472201653E0005B19CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6471201653E0005B19CF /* AppDelegate.swift */; };
 		BD0A6474201653E0005B19CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6473201653E0005B19CF /* ViewController.swift */; };
@@ -19,6 +20,21 @@
 		BD0A64A52016694D005B19CF /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A64A42016694D005B19CF /* Context.swift */; };
 		BD18843B2016FBEA000DA074 /* AccountMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843A2016FBEA000DA074 /* AccountMao.swift */; };
 		BD18843D2016FC86000DA074 /* Mao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843C2016FC86000DA074 /* Mao.swift */; };
+		BD204FCD201AD2E100965300 /* BAAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FCC201AD2E100965300 /* BAAction.swift */; };
+		BD204FCF201AD56E00965300 /* VWAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FCE201AD56E00965300 /* VWAction.swift */; };
+		BD204FD2201ADA1400965300 /* ACMoelimpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FD1201ADA1400965300 /* ACMoelimpl.swift */; };
+		BD204FD5201AE03E00965300 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD204FD4201AE03E00965300 /* Account.storyboard */; };
+		BD204FD8201AE20200965300 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FD7201AE20200965300 /* LoginVC.swift */; };
+		BD204FDB201AE58500965300 /* LoginViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDA201AE58500965300 /* LoginViewModelImpl.swift */; };
+		BD204FDD201AE96400965300 /* LogivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDC201AE96400965300 /* LogivView.swift */; };
+		BD204FDF201B8ED500965300 /* ACServerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDE201B8ED500965300 /* ACServerImpl.swift */; };
+		BD204FE1201D73E400965300 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE0201D73E400965300 /* LoginViewModel.swift */; };
+		BD204FE6201D970700965300 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE5201D970700965300 /* JoinView.swift */; };
+		BD204FE8201D9A2900965300 /* JoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE7201D9A2900965300 /* JoinVC.swift */; };
+		BD204FEA201D9A9800965300 /* ForgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE9201D9A9800965300 /* ForgetVC.swift */; };
+		BD204FEC201D9AA700965300 /* ForgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FEB201D9AA700965300 /* ForgetView.swift */; };
+		BD204FEE201D9AC100965300 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FED201D9AC100965300 /* ConfirmView.swift */; };
+		BD204FF0201D9ADB00965300 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FEF201D9ADB00965300 /* ConfirmVC.swift */; };
 		BD21FD0A2017188700062847 /* AccountMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21FD092017188700062847 /* AccountMaoTest.swift */; };
 		BD529A0A20172DA400FB9193 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A0920172DA400FB9193 /* Sampler.swift */; };
 		BD529A0C2017365300FB9193 /* IconsMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A0B2017365300FB9193 /* IconsMao.swift */; };
@@ -26,6 +42,21 @@
 		BD529A152017414600FB9193 /* TextReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A142017414500FB9193 /* TextReaderTest.swift */; };
 		BD529A172017953C00FB9193 /* iconList.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD529A162017953C00FB9193 /* iconList.txt */; };
 		BD529A19201797EF00FB9193 /* IconsMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A18201797EF00FB9193 /* IconsMaoTest.swift */; };
+		BD69D6B8201F6D97004B1099 /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69D6B7201F6D97004B1099 /* PauseView.swift */; };
+		BD8EA5BB201A170E001F6BB1 /* SPMoneyMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EA5BA201A170E001F6BB1 /* SPMoneyMaoTest.swift */; };
+		BD8EA5BC201A1AED001F6BB1 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A0920172DA400FB9193 /* Sampler.swift */; };
+		BDB58F4B20184DE0003FE358 /* SPTypeMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4A20184DE0003FE358 /* SPTypeMao.swift */; };
+		BDB58F4D2018585D003FE358 /* BudgetMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4C2018585D003FE358 /* BudgetMao.swift */; };
+		BDB58F4F20185DFB003FE358 /* BudgetMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4E20185DFB003FE358 /* BudgetMaoTest.swift */; };
+		BDCFD2A1201A35C5007EC389 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2A0201A35C5007EC389 /* AccountModel.swift */; };
+		BDCFD2A4201ABF86007EC389 /* ACLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2A3201ABF86007EC389 /* ACLogin.swift */; };
+		BDCFD2A7201AC43D007EC389 /* RegulaExpressUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2A6201AC43D007EC389 /* RegulaExpressUtil.swift */; };
+		BDCFD2A9201AC8A5007EC389 /* ACJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2A8201AC8A5007EC389 /* ACJoin.swift */; };
+		BDCFD2AB201AC905007EC389 /* ACForget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2AA201AC905007EC389 /* ACForget.swift */; };
+		BDCFD2AE201AC989007EC389 /* SeverFW.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2AD201AC989007EC389 /* SeverFW.swift */; };
+		BDCFD2B1201ACA60007EC389 /* ACServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2B0201ACA60007EC389 /* ACServer.swift */; };
+		BDE6085B2022D60900B50BA0 /* IBillInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6085A2022D60900B50BA0 /* IBillInitializer.swift */; };
+		BDE953F42019E84D00D8817B /* SPMoneyMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE953F32019E84D00D8817B /* SPMoneyMao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		678405858B57E1C047631EC2 /* Pods-iBill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBill/Pods-iBill.debug.xcconfig"; sourceTree = "<group>"; };
 		6C0641DAB146A0B088307CB6 /* Pods-iBill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBill.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBill/Pods-iBill.release.xcconfig"; sourceTree = "<group>"; };
 		89268E954676FD783A0CE87F /* Pods_iBill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +98,21 @@
 		BD0A64A42016694D005B19CF /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		BD18843A2016FBEA000DA074 /* AccountMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMao.swift; sourceTree = "<group>"; };
 		BD18843C2016FC86000DA074 /* Mao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mao.swift; sourceTree = "<group>"; };
+		BD204FCC201AD2E100965300 /* BAAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAction.swift; sourceTree = "<group>"; };
+		BD204FCE201AD56E00965300 /* VWAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWAction.swift; sourceTree = "<group>"; };
+		BD204FD1201ADA1400965300 /* ACMoelimpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMoelimpl.swift; sourceTree = "<group>"; };
+		BD204FD4201AE03E00965300 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		BD204FD7201AE20200965300 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BD204FDA201AE58500965300 /* LoginViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelImpl.swift; sourceTree = "<group>"; };
+		BD204FDC201AE96400965300 /* LogivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogivView.swift; sourceTree = "<group>"; };
+		BD204FDE201B8ED500965300 /* ACServerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACServerImpl.swift; sourceTree = "<group>"; };
+		BD204FE0201D73E400965300 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BD204FE5201D970700965300 /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
+		BD204FE7201D9A2900965300 /* JoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinVC.swift; sourceTree = "<group>"; };
+		BD204FE9201D9A9800965300 /* ForgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetVC.swift; sourceTree = "<group>"; };
+		BD204FEB201D9AA700965300 /* ForgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetView.swift; sourceTree = "<group>"; };
+		BD204FED201D9AC100965300 /* ConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		BD204FEF201D9ADB00965300 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		BD21FD092017188700062847 /* AccountMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMaoTest.swift; sourceTree = "<group>"; };
 		BD529A0920172DA400FB9193 /* Sampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sampler.swift; sourceTree = "<group>"; };
 		BD529A0B2017365300FB9193 /* IconsMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsMao.swift; sourceTree = "<group>"; };
@@ -73,6 +120,20 @@
 		BD529A142017414500FB9193 /* TextReaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderTest.swift; sourceTree = "<group>"; };
 		BD529A162017953C00FB9193 /* iconList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iconList.txt; sourceTree = "<group>"; };
 		BD529A18201797EF00FB9193 /* IconsMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsMaoTest.swift; sourceTree = "<group>"; };
+		BD69D6B7201F6D97004B1099 /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		BD8EA5BA201A170E001F6BB1 /* SPMoneyMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMoneyMaoTest.swift; sourceTree = "<group>"; };
+		BDB58F4A20184DE0003FE358 /* SPTypeMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTypeMao.swift; sourceTree = "<group>"; };
+		BDB58F4C2018585D003FE358 /* BudgetMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMao.swift; sourceTree = "<group>"; };
+		BDB58F4E20185DFB003FE358 /* BudgetMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMaoTest.swift; sourceTree = "<group>"; };
+		BDCFD2A0201A35C5007EC389 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		BDCFD2A3201ABF86007EC389 /* ACLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLogin.swift; sourceTree = "<group>"; };
+		BDCFD2A6201AC43D007EC389 /* RegulaExpressUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulaExpressUtil.swift; sourceTree = "<group>"; };
+		BDCFD2A8201AC8A5007EC389 /* ACJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACJoin.swift; sourceTree = "<group>"; };
+		BDCFD2AA201AC905007EC389 /* ACForget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACForget.swift; sourceTree = "<group>"; };
+		BDCFD2AD201AC989007EC389 /* SeverFW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverFW.swift; sourceTree = "<group>"; };
+		BDCFD2B0201ACA60007EC389 /* ACServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACServer.swift; sourceTree = "<group>"; };
+		BDE6085A2022D60900B50BA0 /* IBillInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBillInitializer.swift; sourceTree = "<group>"; };
+		BDE953F32019E84D00D8817B /* SPMoneyMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMoneyMao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +206,6 @@
 			children = (
 				BD529A1020173BB500FB9193 /* Imgs */,
 				BD0A64A32016693D005B19CF /* Modules */,
-				BD0A64A220165682005B19CF /* Storyboard */,
 				BD0A6471201653E0005B19CF /* AppDelegate.swift */,
 				BD0A6473201653E0005B19CF /* ViewController.swift */,
 				BD0A647B201653E1005B19CF /* Assets.xcassets */,
@@ -177,12 +237,14 @@
 			path = iBillUITests;
 			sourceTree = "<group>";
 		};
-		BD0A64A220165682005B19CF /* Storyboard */ = {
+		BD0A64A220165682005B19CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BD0A6475201653E1005B19CF /* iBill.storyboard */,
+				BD69D6B6201F6D65004B1099 /* UIProtocol */,
+				BD204FD6201AE1E100965300 /* Account */,
+				BDE608592022D23900B50BA0 /* IBill */,
 			);
-			path = Storyboard;
+			path = View;
 			sourceTree = "<group>";
 		};
 		BD0A64A32016693D005B19CF /* Modules */ = {
@@ -190,6 +252,8 @@
 			children = (
 				BD529A0D2017382200FB9193 /* Utils */,
 				BD1884392016FBB8000DA074 /* Mao */,
+				BDCFD29F201A34FD007EC389 /* Model */,
+				BD0A64A220165682005B19CF /* View */,
 				BD0A64A42016694D005B19CF /* Context.swift */,
 			);
 			path = Modules;
@@ -201,8 +265,70 @@
 				BD18843C2016FC86000DA074 /* Mao.swift */,
 				BD18843A2016FBEA000DA074 /* AccountMao.swift */,
 				BD529A0B2017365300FB9193 /* IconsMao.swift */,
+				BDB58F4A20184DE0003FE358 /* SPTypeMao.swift */,
+				BDB58F4C2018585D003FE358 /* BudgetMao.swift */,
+				BDE953F32019E84D00D8817B /* SPMoneyMao.swift */,
 			);
 			path = Mao;
+			sourceTree = "<group>";
+		};
+		BD204FCB201AD2C700965300 /* ServerFW */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD2AD201AC989007EC389 /* SeverFW.swift */,
+				BD204FCC201AD2E100965300 /* BAAction.swift */,
+				BD204FCE201AD56E00965300 /* VWAction.swift */,
+			);
+			path = ServerFW;
+			sourceTree = "<group>";
+		};
+		BD204FD0201AD64200965300 /* RegulaExpress */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD2A6201AC43D007EC389 /* RegulaExpressUtil.swift */,
+			);
+			path = RegulaExpress;
+			sourceTree = "<group>";
+		};
+		BD204FD6201AE1E100965300 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BD69D6B5201F6D21004B1099 /* JoinView */,
+				BD204FE2201D7DB800965300 /* LoginView */,
+				BD204FD4201AE03E00965300 /* Account.storyboard */,
+				BD204FEB201D9AA700965300 /* ForgetView.swift */,
+				BD204FE9201D9A9800965300 /* ForgetVC.swift */,
+				BD204FED201D9AC100965300 /* ConfirmView.swift */,
+				BD204FEF201D9ADB00965300 /* ConfirmVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BD204FE2201D7DB800965300 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FE4201D8E9500965300 /* ViewModel */,
+				BD204FE3201D8E8900965300 /* View */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		BD204FE3201D8E8900965300 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FDC201AE96400965300 /* LogivView.swift */,
+				BD204FD7201AE20200965300 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD204FE4201D8E9500965300 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FE0201D73E400965300 /* LoginViewModel.swift */,
+				BD204FDA201AE58500965300 /* LoginViewModelImpl.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		BD21FD082017186000062847 /* MaoTest */ = {
@@ -210,6 +336,8 @@
 			children = (
 				BD21FD092017188700062847 /* AccountMaoTest.swift */,
 				BD529A18201797EF00FB9193 /* IconsMaoTest.swift */,
+				BDB58F4E20185DFB003FE358 /* BudgetMaoTest.swift */,
+				BD8EA5BA201A170E001F6BB1 /* SPMoneyMaoTest.swift */,
 			);
 			path = MaoTest;
 			sourceTree = "<group>";
@@ -217,7 +345,9 @@
 		BD529A0D2017382200FB9193 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BD204FD0201AD64200965300 /* RegulaExpress */,
 				BD529A0E2017383600FB9193 /* TextReader.swift */,
+				2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -236,6 +366,79 @@
 				BD529A142017414500FB9193 /* TextReaderTest.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		BD69D6B5201F6D21004B1099 /* JoinView */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FE5201D970700965300 /* JoinView.swift */,
+				BD204FE7201D9A2900965300 /* JoinVC.swift */,
+			);
+			path = JoinView;
+			sourceTree = "<group>";
+		};
+		BD69D6B6201F6D65004B1099 /* UIProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				BD69D6B7201F6D97004B1099 /* PauseView.swift */,
+			);
+			path = UIProtocol;
+			sourceTree = "<group>";
+		};
+		BDCFD29F201A34FD007EC389 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FCB201AD2C700965300 /* ServerFW */,
+				BDCFD2A5201ABFC0007EC389 /* Initializer */,
+				BDCFD2A2201ABF6B007EC389 /* Account */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDCFD2A2201ABF6B007EC389 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD2AF201ACA3C007EC389 /* ACServer */,
+				BDCFD2AC201AC967007EC389 /* Enum */,
+				BDCFD2A0201A35C5007EC389 /* AccountModel.swift */,
+				BD204FD1201ADA1400965300 /* ACMoelimpl.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BDCFD2A5201ABFC0007EC389 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6085A2022D60900B50BA0 /* IBillInitializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		BDCFD2AC201AC967007EC389 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD2A3201ABF86007EC389 /* ACLogin.swift */,
+				BDCFD2A8201AC8A5007EC389 /* ACJoin.swift */,
+				BDCFD2AA201AC905007EC389 /* ACForget.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		BDCFD2AF201ACA3C007EC389 /* ACServer */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFD2B0201ACA60007EC389 /* ACServer.swift */,
+				BD204FDE201B8ED500965300 /* ACServerImpl.swift */,
+			);
+			path = ACServer;
+			sourceTree = "<group>";
+		};
+		BDE608592022D23900B50BA0 /* IBill */ = {
+			isa = PBXGroup;
+			children = (
+				BD0A6475201653E1005B19CF /* iBill.storyboard */,
+			);
+			path = IBill;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +553,7 @@
 			files = (
 				BD0A647F201653E1005B19CF /* LaunchScreen.storyboard in Resources */,
 				BD529A172017953C00FB9193 /* iconList.txt in Resources */,
+				BD204FD5201AE03E00965300 /* Account.storyboard in Resources */,
 				BD0A647C201653E1005B19CF /* Assets.xcassets in Resources */,
 				BD0A6477201653E1005B19CF /* iBill.storyboard in Resources */,
 			);
@@ -380,12 +584,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iBill/Pods-iBill-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_Synchronous.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -436,12 +642,40 @@
 			files = (
 				BD18843B2016FBEA000DA074 /* AccountMao.swift in Sources */,
 				BD18843D2016FC86000DA074 /* Mao.swift in Sources */,
+				BDCFD2A9201AC8A5007EC389 /* ACJoin.swift in Sources */,
+				BDB58F4B20184DE0003FE358 /* SPTypeMao.swift in Sources */,
 				BD529A0C2017365300FB9193 /* IconsMao.swift in Sources */,
 				BD529A0F2017383600FB9193 /* TextReader.swift in Sources */,
 				BD0A647A201653E1005B19CF /* iBill.xcdatamodeld in Sources */,
+				BD204FCD201AD2E100965300 /* BAAction.swift in Sources */,
+				BD69D6B8201F6D97004B1099 /* PauseView.swift in Sources */,
+				BD204FEE201D9AC100965300 /* ConfirmView.swift in Sources */,
+				BD204FDB201AE58500965300 /* LoginViewModelImpl.swift in Sources */,
+				BD204FD8201AE20200965300 /* LoginVC.swift in Sources */,
+				BDCFD2A4201ABF86007EC389 /* ACLogin.swift in Sources */,
+				BDB58F4D2018585D003FE358 /* BudgetMao.swift in Sources */,
+				BDE953F42019E84D00D8817B /* SPMoneyMao.swift in Sources */,
+				BD204FEC201D9AA700965300 /* ForgetView.swift in Sources */,
+				BD8EA5BC201A1AED001F6BB1 /* Sampler.swift in Sources */,
+				BD204FE8201D9A2900965300 /* JoinVC.swift in Sources */,
+				BD204FCF201AD56E00965300 /* VWAction.swift in Sources */,
+				BDCFD2A7201AC43D007EC389 /* RegulaExpressUtil.swift in Sources */,
+				BD204FF0201D9ADB00965300 /* ConfirmVC.swift in Sources */,
+				BD204FD2201ADA1400965300 /* ACMoelimpl.swift in Sources */,
+				BDCFD2AE201AC989007EC389 /* SeverFW.swift in Sources */,
+				BD204FDF201B8ED500965300 /* ACServerImpl.swift in Sources */,
 				BD0A64A52016694D005B19CF /* Context.swift in Sources */,
+				BD204FE6201D970700965300 /* JoinView.swift in Sources */,
 				BD0A6474201653E0005B19CF /* ViewController.swift in Sources */,
+				BD204FDD201AE96400965300 /* LogivView.swift in Sources */,
+				BD204FE1201D73E400965300 /* LoginViewModel.swift in Sources */,
+				BDCFD2A1201A35C5007EC389 /* AccountModel.swift in Sources */,
 				BD0A6472201653E0005B19CF /* AppDelegate.swift in Sources */,
+				BDCFD2B1201ACA60007EC389 /* ACServer.swift in Sources */,
+				BDCFD2AB201AC905007EC389 /* ACForget.swift in Sources */,
+				BDE6085B2022D60900B50BA0 /* IBillInitializer.swift in Sources */,
+				2DC0C67C5877C2F00BECEC87 /* DateUtils.swift in Sources */,
+				BD204FEA201D9A9800965300 /* ForgetVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,10 +683,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8EA5BB201A170E001F6BB1 /* SPMoneyMaoTest.swift in Sources */,
 				BD0A648A201653E1005B19CF /* iBillTests.swift in Sources */,
 				BD21FD0A2017188700062847 /* AccountMaoTest.swift in Sources */,
 				BD529A0A20172DA400FB9193 /* Sampler.swift in Sources */,
 				BD529A19201797EF00FB9193 /* IconsMaoTest.swift in Sources */,
+				BDB58F4F20185DFB003FE358 /* BudgetMaoTest.swift in Sources */,
 				BD529A152017414600FB9193 /* TextReaderTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
