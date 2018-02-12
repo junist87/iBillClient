@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC0C57E3ED883E67560C0E7 /* UIMiniMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0C7627A0C09D55356C103 /* UIMiniMap.swift */; };
 		2DC0C67C5877C2F00BECEC87 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */; };
 		7CBAB096A5461810D6A4A121 /* Pods_iBill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89268E954676FD783A0CE87F /* Pods_iBill.framework */; };
 		BD0A6472201653E0005B19CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6471201653E0005B19CF /* AppDelegate.swift */; };
 		BD0A6474201653E0005B19CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6473201653E0005B19CF /* ViewController.swift */; };
-		BD0A6477201653E1005B19CF /* iBill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0A6475201653E1005B19CF /* iBill.storyboard */; };
 		BD0A647A201653E1005B19CF /* iBill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6478201653E1005B19CF /* iBill.xcdatamodeld */; };
 		BD0A647C201653E1005B19CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0A647B201653E1005B19CF /* Assets.xcassets */; };
 		BD0A647F201653E1005B19CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0A647D201653E1005B19CF /* LaunchScreen.storyboard */; };
 		BD0A648A201653E1005B19CF /* iBillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6489201653E1005B19CF /* iBillTests.swift */; };
 		BD0A6495201653E1005B19CF /* iBillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6494201653E1005B19CF /* iBillUITests.swift */; };
 		BD0A64A52016694D005B19CF /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A64A42016694D005B19CF /* Context.swift */; };
+		BD166D02203084C800CFE5C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD166D01203084C800CFE5C0 /* MapKit.framework */; };
+		BD166D072030A00D00CFE5C0 /* PrivacyAsker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D062030A00D00CFE5C0 /* PrivacyAsker.swift */; };
+		BD166D0920317AE800CFE5C0 /* UIModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0820317AE800CFE5C0 /* UIModalView.swift */; };
+		BD166D0B2031A68A00CFE5C0 /* UIViewAnimationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0A2031A68A00CFE5C0 /* UIViewAnimationHandler.swift */; };
+		BD166D0E2031A89C00CFE5C0 /* UIViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0D2031A89C00CFE5C0 /* UIViewMaker.swift */; };
+		BD166D132032171E00CFE5C0 /* UIMiniMapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D122032171E00CFE5C0 /* UIMiniMapInfo.swift */; };
 		BD18843B2016FBEA000DA074 /* AccountMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843A2016FBEA000DA074 /* AccountMao.swift */; };
 		BD18843D2016FC86000DA074 /* Mao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843C2016FC86000DA074 /* Mao.swift */; };
 		BD204FCD201AD2E100965300 /* BAAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FCC201AD2E100965300 /* BAAction.swift */; };
@@ -26,7 +32,7 @@
 		BD204FD5201AE03E00965300 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD204FD4201AE03E00965300 /* Account.storyboard */; };
 		BD204FD8201AE20200965300 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FD7201AE20200965300 /* LoginVC.swift */; };
 		BD204FDB201AE58500965300 /* LoginViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDA201AE58500965300 /* LoginViewModelImpl.swift */; };
-		BD204FDD201AE96400965300 /* LogivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDC201AE96400965300 /* LogivView.swift */; };
+		BD204FDD201AE96400965300 /* PrtcLogivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDC201AE96400965300 /* PrtcLogivView.swift */; };
 		BD204FDF201B8ED500965300 /* ACServerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FDE201B8ED500965300 /* ACServerImpl.swift */; };
 		BD204FE1201D73E400965300 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE0201D73E400965300 /* LoginViewModel.swift */; };
 		BD204FE6201D970700965300 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FE5201D970700965300 /* JoinView.swift */; };
@@ -42,9 +48,13 @@
 		BD529A152017414600FB9193 /* TextReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A142017414500FB9193 /* TextReaderTest.swift */; };
 		BD529A172017953C00FB9193 /* iconList.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD529A162017953C00FB9193 /* iconList.txt */; };
 		BD529A19201797EF00FB9193 /* IconsMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A18201797EF00FB9193 /* IconsMaoTest.swift */; };
-		BD69D6B8201F6D97004B1099 /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69D6B7201F6D97004B1099 /* PauseView.swift */; };
+		BD69D6B8201F6D97004B1099 /* UIPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69D6B7201F6D97004B1099 /* UIPauseView.swift */; };
 		BD8EA5BB201A170E001F6BB1 /* SPMoneyMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EA5BA201A170E001F6BB1 /* SPMoneyMaoTest.swift */; };
 		BD8EA5BC201A1AED001F6BB1 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD529A0920172DA400FB9193 /* Sampler.swift */; };
+		BDA5CE81202F3045001BB606 /* UICharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5CE80202F3045001BB606 /* UICharacterView.swift */; };
+		BDA5CE83202F3538001BB606 /* PrtcUICharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5CE82202F3538001BB606 /* PrtcUICharacterView.swift */; };
+		BDA5CE85202F3794001BB606 /* UIGaugeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5CE84202F3794001BB606 /* UIGaugeBar.swift */; };
+		BDA5CE8B202FF8E5001BB606 /* UIAllocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5CE8A202FF8E5001BB606 /* UIAllocator.swift */; };
 		BDB58F4B20184DE0003FE358 /* SPTypeMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4A20184DE0003FE358 /* SPTypeMao.swift */; };
 		BDB58F4D2018585D003FE358 /* BudgetMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4C2018585D003FE358 /* BudgetMao.swift */; };
 		BDB58F4F20185DFB003FE358 /* BudgetMaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB58F4E20185DFB003FE358 /* BudgetMaoTest.swift */; };
@@ -55,6 +65,13 @@
 		BDCFD2AB201AC905007EC389 /* ACForget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2AA201AC905007EC389 /* ACForget.swift */; };
 		BDCFD2AE201AC989007EC389 /* SeverFW.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2AD201AC989007EC389 /* SeverFW.swift */; };
 		BDCFD2B1201ACA60007EC389 /* ACServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFD2B0201ACA60007EC389 /* ACServer.swift */; };
+		BDE2B2D8202AB67500A02987 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2D7202AB67500A02987 /* SHA256.swift */; };
+		BDE2B2DA202AB9B700A02987 /* SHA256Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2D9202AB9B700A02987 /* SHA256Test.swift */; };
+		BDE2B2DD202ABD5B00A02987 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2DC202ABD5B00A02987 /* AES256.swift */; };
+		BDE2B2E0202D6F1600A02987 /* UIBasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2DF202D6F1600A02987 /* UIBasicButton.swift */; };
+		BDE2B2E5202D793000A02987 /* UIPasswdTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2E4202D793000A02987 /* UIPasswdTextField.swift */; };
+		BDE2B2EA202D86C200A02987 /* IBillMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2E9202D86C200A02987 /* IBillMainVC.swift */; };
+		BDE2B2EC202D975000A02987 /* UIEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2B2EB202D975000A02987 /* UIEmailTextField.swift */; };
 		BDE6085B2022D60900B50BA0 /* IBillInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6085A2022D60900B50BA0 /* IBillInitializer.swift */; };
 		BDE953F42019E84D00D8817B /* SPMoneyMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE953F32019E84D00D8817B /* SPMoneyMao.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +94,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC0C7627A0C09D55356C103 /* UIMiniMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMiniMap.swift; sourceTree = "<group>"; };
 		2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		678405858B57E1C047631EC2 /* Pods-iBill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBill/Pods-iBill.debug.xcconfig"; sourceTree = "<group>"; };
 		6C0641DAB146A0B088307CB6 /* Pods-iBill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBill.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBill/Pods-iBill.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +102,6 @@
 		BD0A646E201653E0005B19CF /* iBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0A6471201653E0005B19CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD0A6473201653E0005B19CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD0A6476201653E1005B19CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iBill.storyboard; sourceTree = "<group>"; };
 		BD0A6479201653E1005B19CF /* iBill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBill.xcdatamodel; sourceTree = "<group>"; };
 		BD0A647B201653E1005B19CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0A647E201653E1005B19CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +113,12 @@
 		BD0A6494201653E1005B19CF /* iBillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBillUITests.swift; sourceTree = "<group>"; };
 		BD0A6496201653E1005B19CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0A64A42016694D005B19CF /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		BD166D01203084C800CFE5C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD166D062030A00D00CFE5C0 /* PrivacyAsker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAsker.swift; sourceTree = "<group>"; };
+		BD166D0820317AE800CFE5C0 /* UIModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModalView.swift; sourceTree = "<group>"; };
+		BD166D0A2031A68A00CFE5C0 /* UIViewAnimationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationHandler.swift; sourceTree = "<group>"; };
+		BD166D0D2031A89C00CFE5C0 /* UIViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewMaker.swift; sourceTree = "<group>"; };
+		BD166D122032171E00CFE5C0 /* UIMiniMapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMiniMapInfo.swift; sourceTree = "<group>"; };
 		BD18843A2016FBEA000DA074 /* AccountMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMao.swift; sourceTree = "<group>"; };
 		BD18843C2016FC86000DA074 /* Mao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mao.swift; sourceTree = "<group>"; };
 		BD204FCC201AD2E100965300 /* BAAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAction.swift; sourceTree = "<group>"; };
@@ -104,7 +127,7 @@
 		BD204FD4201AE03E00965300 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
 		BD204FD7201AE20200965300 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BD204FDA201AE58500965300 /* LoginViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelImpl.swift; sourceTree = "<group>"; };
-		BD204FDC201AE96400965300 /* LogivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogivView.swift; sourceTree = "<group>"; };
+		BD204FDC201AE96400965300 /* PrtcLogivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrtcLogivView.swift; sourceTree = "<group>"; };
 		BD204FDE201B8ED500965300 /* ACServerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACServerImpl.swift; sourceTree = "<group>"; };
 		BD204FE0201D73E400965300 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		BD204FE5201D970700965300 /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
@@ -120,8 +143,12 @@
 		BD529A142017414500FB9193 /* TextReaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderTest.swift; sourceTree = "<group>"; };
 		BD529A162017953C00FB9193 /* iconList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iconList.txt; sourceTree = "<group>"; };
 		BD529A18201797EF00FB9193 /* IconsMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsMaoTest.swift; sourceTree = "<group>"; };
-		BD69D6B7201F6D97004B1099 /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		BD69D6B7201F6D97004B1099 /* UIPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPauseView.swift; sourceTree = "<group>"; };
 		BD8EA5BA201A170E001F6BB1 /* SPMoneyMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMoneyMaoTest.swift; sourceTree = "<group>"; };
+		BDA5CE80202F3045001BB606 /* UICharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICharacterView.swift; sourceTree = "<group>"; };
+		BDA5CE82202F3538001BB606 /* PrtcUICharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrtcUICharacterView.swift; sourceTree = "<group>"; };
+		BDA5CE84202F3794001BB606 /* UIGaugeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGaugeBar.swift; sourceTree = "<group>"; };
+		BDA5CE8A202FF8E5001BB606 /* UIAllocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAllocator.swift; sourceTree = "<group>"; };
 		BDB58F4A20184DE0003FE358 /* SPTypeMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTypeMao.swift; sourceTree = "<group>"; };
 		BDB58F4C2018585D003FE358 /* BudgetMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMao.swift; sourceTree = "<group>"; };
 		BDB58F4E20185DFB003FE358 /* BudgetMaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMaoTest.swift; sourceTree = "<group>"; };
@@ -132,6 +159,13 @@
 		BDCFD2AA201AC905007EC389 /* ACForget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACForget.swift; sourceTree = "<group>"; };
 		BDCFD2AD201AC989007EC389 /* SeverFW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverFW.swift; sourceTree = "<group>"; };
 		BDCFD2B0201ACA60007EC389 /* ACServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACServer.swift; sourceTree = "<group>"; };
+		BDE2B2D7202AB67500A02987 /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		BDE2B2D9202AB9B700A02987 /* SHA256Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256Test.swift; sourceTree = "<group>"; };
+		BDE2B2DC202ABD5B00A02987 /* AES256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256.swift; sourceTree = "<group>"; };
+		BDE2B2DF202D6F1600A02987 /* UIBasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBasicButton.swift; sourceTree = "<group>"; };
+		BDE2B2E4202D793000A02987 /* UIPasswdTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPasswdTextField.swift; sourceTree = "<group>"; };
+		BDE2B2E9202D86C200A02987 /* IBillMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBillMainVC.swift; sourceTree = "<group>"; };
+		BDE2B2EB202D975000A02987 /* UIEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEmailTextField.swift; sourceTree = "<group>"; };
 		BDE6085A2022D60900B50BA0 /* IBillInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBillInitializer.swift; sourceTree = "<group>"; };
 		BDE953F32019E84D00D8817B /* SPMoneyMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMoneyMao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD166D02203084C800CFE5C0 /* MapKit.framework in Frameworks */,
 				7CBAB096A5461810D6A4A121 /* Pods_iBill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +197,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DC0CD8DDDD19FD260256D51 /* UIMiniMap */ = {
+			isa = PBXGroup;
+			children = (
+				2DC0C7627A0C09D55356C103 /* UIMiniMap.swift */,
+				BD166D122032171E00CFE5C0 /* UIMiniMapInfo.swift */,
+			);
+			path = UIMiniMap;
+			sourceTree = "<group>";
+		};
 		64F060EE95DD7DE796B3D80D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +218,7 @@
 		72DDCBFC20B4DD0471A0146A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD166D01203084C800CFE5C0 /* MapKit.framework */,
 				89268E954676FD783A0CE87F /* Pods_iBill.framework */,
 			);
 			name = Frameworks;
@@ -219,11 +264,11 @@
 		BD0A6488201653E1005B19CF /* iBillTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDE2B2DB202ABAC200A02987 /* Sampler */,
 				BD529A132017413600FB9193 /* Util */,
 				BD21FD082017186000062847 /* MaoTest */,
 				BD0A6489201653E1005B19CF /* iBillTests.swift */,
 				BD0A648B201653E1005B19CF /* Info.plist */,
-				BD529A0920172DA400FB9193 /* Sampler.swift */,
 			);
 			path = iBillTests;
 			sourceTree = "<group>";
@@ -240,7 +285,9 @@
 		BD0A64A220165682005B19CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BD69D6B6201F6D65004B1099 /* UIProtocol */,
+				BD166D0C2031A85800CFE5C0 /* UISamples */,
+				BDE2B2D3202AB33600A02987 /* UIGeneral */,
+				BD69D6B6201F6D65004B1099 /* UIProtocolExtension */,
 				BD204FD6201AE1E100965300 /* Account */,
 				BDE608592022D23900B50BA0 /* IBill */,
 			);
@@ -257,6 +304,39 @@
 				BD0A64A42016694D005B19CF /* Context.swift */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		BD166D0520309FED00CFE5C0 /* PrivacyAsker */ = {
+			isa = PBXGroup;
+			children = (
+				BD166D062030A00D00CFE5C0 /* PrivacyAsker.swift */,
+			);
+			path = PrivacyAsker;
+			sourceTree = "<group>";
+		};
+		BD166D0C2031A85800CFE5C0 /* UISamples */ = {
+			isa = PBXGroup;
+			children = (
+				BD166D0A2031A68A00CFE5C0 /* UIViewAnimationHandler.swift */,
+				BD166D0D2031A89C00CFE5C0 /* UIViewMaker.swift */,
+			);
+			path = UISamples;
+			sourceTree = "<group>";
+		};
+		BD166D112031FBFD00CFE5C0 /* UIModalView */ = {
+			isa = PBXGroup;
+			children = (
+				BD166D0820317AE800CFE5C0 /* UIModalView.swift */,
+			);
+			path = UIModalView;
+			sourceTree = "<group>";
+		};
+		BD166D1420321BD200CFE5C0 /* UIPauseView */ = {
+			isa = PBXGroup;
+			children = (
+				BD69D6B7201F6D97004B1099 /* UIPauseView.swift */,
+			);
+			path = UIPauseView;
 			sourceTree = "<group>";
 		};
 		BD1884392016FBB8000DA074 /* Mao */ = {
@@ -293,13 +373,12 @@
 		BD204FD6201AE1E100965300 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				BD69D6B5201F6D21004B1099 /* JoinView */,
+				BDA5CE7E202F2FEB001BB606 /* ConfirmView */,
 				BD204FE2201D7DB800965300 /* LoginView */,
+				BD69D6B5201F6D21004B1099 /* JoinView */,
 				BD204FD4201AE03E00965300 /* Account.storyboard */,
 				BD204FEB201D9AA700965300 /* ForgetView.swift */,
 				BD204FE9201D9A9800965300 /* ForgetVC.swift */,
-				BD204FED201D9AC100965300 /* ConfirmView.swift */,
-				BD204FEF201D9ADB00965300 /* ConfirmVC.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -316,7 +395,7 @@
 		BD204FE3201D8E8900965300 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BD204FDC201AE96400965300 /* LogivView.swift */,
+				BD204FDC201AE96400965300 /* PrtcLogivView.swift */,
 				BD204FD7201AE20200965300 /* LoginVC.swift */,
 			);
 			path = View;
@@ -345,6 +424,9 @@
 		BD529A0D2017382200FB9193 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BD166D0520309FED00CFE5C0 /* PrivacyAsker */,
+				BDA5CE89202FF8CF001BB606 /* UIAllocator */,
+				BDE2B2D6202AB65F00A02987 /* Cryptor */,
 				BD204FD0201AD64200965300 /* RegulaExpress */,
 				BD529A0E2017383600FB9193 /* TextReader.swift */,
 				2DC0C988AB9B8A97678EF2B3 /* DateUtils.swift */,
@@ -364,6 +446,7 @@
 			isa = PBXGroup;
 			children = (
 				BD529A142017414500FB9193 /* TextReaderTest.swift */,
+				BDE2B2D9202AB9B700A02987 /* SHA256Test.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -377,12 +460,47 @@
 			path = JoinView;
 			sourceTree = "<group>";
 		};
-		BD69D6B6201F6D65004B1099 /* UIProtocol */ = {
+		BD69D6B6201F6D65004B1099 /* UIProtocolExtension */ = {
 			isa = PBXGroup;
 			children = (
-				BD69D6B7201F6D97004B1099 /* PauseView.swift */,
+				BD166D1420321BD200CFE5C0 /* UIPauseView */,
+				BD166D112031FBFD00CFE5C0 /* UIModalView */,
 			);
-			path = UIProtocol;
+			path = UIProtocolExtension;
+			sourceTree = "<group>";
+		};
+		BDA5CE7E202F2FEB001BB606 /* ConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				BD204FED201D9AC100965300 /* ConfirmView.swift */,
+				BD204FEF201D9ADB00965300 /* ConfirmVC.swift */,
+			);
+			path = ConfirmView;
+			sourceTree = "<group>";
+		};
+		BDA5CE7F202F302E001BB606 /* UICharacterView */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5CE80202F3045001BB606 /* UICharacterView.swift */,
+				BDA5CE82202F3538001BB606 /* PrtcUICharacterView.swift */,
+			);
+			path = UICharacterView;
+			sourceTree = "<group>";
+		};
+		BDA5CE88202F394E001BB606 /* UIGagueBar */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5CE84202F3794001BB606 /* UIGaugeBar.swift */,
+			);
+			path = UIGagueBar;
+			sourceTree = "<group>";
+		};
+		BDA5CE89202FF8CF001BB606 /* UIAllocator */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5CE8A202FF8E5001BB606 /* UIAllocator.swift */,
+			);
+			path = UIAllocator;
 			sourceTree = "<group>";
 		};
 		BDCFD29F201A34FD007EC389 /* Model */ = {
@@ -433,10 +551,48 @@
 			path = ACServer;
 			sourceTree = "<group>";
 		};
+		BDE2B2D3202AB33600A02987 /* UIGeneral */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5CE7F202F302E001BB606 /* UICharacterView */,
+				BDA5CE88202F394E001BB606 /* UIGagueBar */,
+				2DC0CD8DDDD19FD260256D51 /* UIMiniMap */,
+				BDE2B2E1202D70DC00A02987 /* BasicUIs */,
+			);
+			path = UIGeneral;
+			sourceTree = "<group>";
+		};
+		BDE2B2D6202AB65F00A02987 /* Cryptor */ = {
+			isa = PBXGroup;
+			children = (
+				BDE2B2D7202AB67500A02987 /* SHA256.swift */,
+				BDE2B2DC202ABD5B00A02987 /* AES256.swift */,
+			);
+			path = Cryptor;
+			sourceTree = "<group>";
+		};
+		BDE2B2DB202ABAC200A02987 /* Sampler */ = {
+			isa = PBXGroup;
+			children = (
+				BD529A0920172DA400FB9193 /* Sampler.swift */,
+			);
+			path = Sampler;
+			sourceTree = "<group>";
+		};
+		BDE2B2E1202D70DC00A02987 /* BasicUIs */ = {
+			isa = PBXGroup;
+			children = (
+				BDE2B2DF202D6F1600A02987 /* UIBasicButton.swift */,
+				BDE2B2E4202D793000A02987 /* UIPasswdTextField.swift */,
+				BDE2B2EB202D975000A02987 /* UIEmailTextField.swift */,
+			);
+			path = BasicUIs;
+			sourceTree = "<group>";
+		};
 		BDE608592022D23900B50BA0 /* IBill */ = {
 			isa = PBXGroup;
 			children = (
-				BD0A6475201653E1005B19CF /* iBill.storyboard */,
+				BDE2B2E9202D86C200A02987 /* IBillMainVC.swift */,
 			);
 			path = IBill;
 			sourceTree = "<group>";
@@ -513,6 +669,11 @@
 					BD0A646D201653E0005B19CF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BD0A6484201653E1005B19CF = {
 						CreatedOnToolsVersion = 9.2;
@@ -555,7 +716,6 @@
 				BD529A172017953C00FB9193 /* iconList.txt in Resources */,
 				BD204FD5201AE03E00965300 /* Account.storyboard in Resources */,
 				BD0A647C201653E1005B19CF /* Assets.xcassets in Resources */,
-				BD0A6477201653E1005B19CF /* iBill.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +745,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-iBill/Pods-iBill-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -592,6 +753,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_Synchronous.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -641,41 +803,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD18843B2016FBEA000DA074 /* AccountMao.swift in Sources */,
+				BD166D0E2031A89C00CFE5C0 /* UIViewMaker.swift in Sources */,
 				BD18843D2016FC86000DA074 /* Mao.swift in Sources */,
+				BDE2B2E0202D6F1600A02987 /* UIBasicButton.swift in Sources */,
 				BDCFD2A9201AC8A5007EC389 /* ACJoin.swift in Sources */,
 				BDB58F4B20184DE0003FE358 /* SPTypeMao.swift in Sources */,
+				BDA5CE85202F3794001BB606 /* UIGaugeBar.swift in Sources */,
 				BD529A0C2017365300FB9193 /* IconsMao.swift in Sources */,
 				BD529A0F2017383600FB9193 /* TextReader.swift in Sources */,
 				BD0A647A201653E1005B19CF /* iBill.xcdatamodeld in Sources */,
 				BD204FCD201AD2E100965300 /* BAAction.swift in Sources */,
-				BD69D6B8201F6D97004B1099 /* PauseView.swift in Sources */,
+				BD69D6B8201F6D97004B1099 /* UIPauseView.swift in Sources */,
 				BD204FEE201D9AC100965300 /* ConfirmView.swift in Sources */,
+				BDA5CE8B202FF8E5001BB606 /* UIAllocator.swift in Sources */,
 				BD204FDB201AE58500965300 /* LoginViewModelImpl.swift in Sources */,
 				BD204FD8201AE20200965300 /* LoginVC.swift in Sources */,
 				BDCFD2A4201ABF86007EC389 /* ACLogin.swift in Sources */,
 				BDB58F4D2018585D003FE358 /* BudgetMao.swift in Sources */,
 				BDE953F42019E84D00D8817B /* SPMoneyMao.swift in Sources */,
+				BDE2B2EC202D975000A02987 /* UIEmailTextField.swift in Sources */,
 				BD204FEC201D9AA700965300 /* ForgetView.swift in Sources */,
+				BDE2B2EA202D86C200A02987 /* IBillMainVC.swift in Sources */,
 				BD8EA5BC201A1AED001F6BB1 /* Sampler.swift in Sources */,
 				BD204FE8201D9A2900965300 /* JoinVC.swift in Sources */,
 				BD204FCF201AD56E00965300 /* VWAction.swift in Sources */,
 				BDCFD2A7201AC43D007EC389 /* RegulaExpressUtil.swift in Sources */,
+				BD166D132032171E00CFE5C0 /* UIMiniMapInfo.swift in Sources */,
 				BD204FF0201D9ADB00965300 /* ConfirmVC.swift in Sources */,
 				BD204FD2201ADA1400965300 /* ACMoelimpl.swift in Sources */,
 				BDCFD2AE201AC989007EC389 /* SeverFW.swift in Sources */,
 				BD204FDF201B8ED500965300 /* ACServerImpl.swift in Sources */,
 				BD0A64A52016694D005B19CF /* Context.swift in Sources */,
 				BD204FE6201D970700965300 /* JoinView.swift in Sources */,
+				BD166D0920317AE800CFE5C0 /* UIModalView.swift in Sources */,
 				BD0A6474201653E0005B19CF /* ViewController.swift in Sources */,
-				BD204FDD201AE96400965300 /* LogivView.swift in Sources */,
+				BD166D0B2031A68A00CFE5C0 /* UIViewAnimationHandler.swift in Sources */,
+				BD204FDD201AE96400965300 /* PrtcLogivView.swift in Sources */,
 				BD204FE1201D73E400965300 /* LoginViewModel.swift in Sources */,
+				BDA5CE81202F3045001BB606 /* UICharacterView.swift in Sources */,
+				BDE2B2D8202AB67500A02987 /* SHA256.swift in Sources */,
 				BDCFD2A1201A35C5007EC389 /* AccountModel.swift in Sources */,
 				BD0A6472201653E0005B19CF /* AppDelegate.swift in Sources */,
+				BDE2B2DD202ABD5B00A02987 /* AES256.swift in Sources */,
 				BDCFD2B1201ACA60007EC389 /* ACServer.swift in Sources */,
 				BDCFD2AB201AC905007EC389 /* ACForget.swift in Sources */,
+				BDA5CE83202F3538001BB606 /* PrtcUICharacterView.swift in Sources */,
 				BDE6085B2022D60900B50BA0 /* IBillInitializer.swift in Sources */,
 				2DC0C67C5877C2F00BECEC87 /* DateUtils.swift in Sources */,
+				BD166D072030A00D00CFE5C0 /* PrivacyAsker.swift in Sources */,
 				BD204FEA201D9A9800965300 /* ForgetVC.swift in Sources */,
+				BDE2B2E5202D793000A02987 /* UIPasswdTextField.swift in Sources */,
+				2DC0C57E3ED883E67560C0E7 /* UIMiniMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +865,7 @@
 				BD0A648A201653E1005B19CF /* iBillTests.swift in Sources */,
 				BD21FD0A2017188700062847 /* AccountMaoTest.swift in Sources */,
 				BD529A0A20172DA400FB9193 /* Sampler.swift in Sources */,
+				BDE2B2DA202AB9B700A02987 /* SHA256Test.swift in Sources */,
 				BD529A19201797EF00FB9193 /* IconsMaoTest.swift in Sources */,
 				BDB58F4F20185DFB003FE358 /* BudgetMaoTest.swift in Sources */,
 				BD529A152017414600FB9193 /* TextReaderTest.swift in Sources */,
@@ -717,14 +896,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD0A6475201653E1005B19CF /* iBill.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD0A6476201653E1005B19CF /* Base */,
-			);
-			name = iBill.storyboard;
-			sourceTree = "<group>";
-		};
 		BD0A647D201653E1005B19CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
