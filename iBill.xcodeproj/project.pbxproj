@@ -18,12 +18,12 @@
 		BD0A648A201653E1005B19CF /* iBillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6489201653E1005B19CF /* iBillTests.swift */; };
 		BD0A6495201653E1005B19CF /* iBillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A6494201653E1005B19CF /* iBillUITests.swift */; };
 		BD0A64A52016694D005B19CF /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A64A42016694D005B19CF /* Context.swift */; };
-		BD166D02203084C800CFE5C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD166D01203084C800CFE5C0 /* MapKit.framework */; };
 		BD166D072030A00D00CFE5C0 /* PrivacyAsker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D062030A00D00CFE5C0 /* PrivacyAsker.swift */; };
 		BD166D0920317AE800CFE5C0 /* UIModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0820317AE800CFE5C0 /* UIModalView.swift */; };
 		BD166D0B2031A68A00CFE5C0 /* UIViewAnimationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0A2031A68A00CFE5C0 /* UIViewAnimationHandler.swift */; };
 		BD166D0E2031A89C00CFE5C0 /* UIViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D0D2031A89C00CFE5C0 /* UIViewMaker.swift */; };
 		BD166D132032171E00CFE5C0 /* UIMiniMapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166D122032171E00CFE5C0 /* UIMiniMapInfo.swift */; };
+		BD166D162032211400CFE5C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD166D152032211400CFE5C0 /* MapKit.framework */; };
 		BD18843B2016FBEA000DA074 /* AccountMao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843A2016FBEA000DA074 /* AccountMao.swift */; };
 		BD18843D2016FC86000DA074 /* Mao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18843C2016FC86000DA074 /* Mao.swift */; };
 		BD204FCD201AD2E100965300 /* BAAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD204FCC201AD2E100965300 /* BAAction.swift */; };
@@ -113,12 +113,12 @@
 		BD0A6494201653E1005B19CF /* iBillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBillUITests.swift; sourceTree = "<group>"; };
 		BD0A6496201653E1005B19CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0A64A42016694D005B19CF /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		BD166D01203084C800CFE5C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BD166D062030A00D00CFE5C0 /* PrivacyAsker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAsker.swift; sourceTree = "<group>"; };
 		BD166D0820317AE800CFE5C0 /* UIModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModalView.swift; sourceTree = "<group>"; };
 		BD166D0A2031A68A00CFE5C0 /* UIViewAnimationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationHandler.swift; sourceTree = "<group>"; };
 		BD166D0D2031A89C00CFE5C0 /* UIViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewMaker.swift; sourceTree = "<group>"; };
 		BD166D122032171E00CFE5C0 /* UIMiniMapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMiniMapInfo.swift; sourceTree = "<group>"; };
+		BD166D152032211400CFE5C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BD18843A2016FBEA000DA074 /* AccountMao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMao.swift; sourceTree = "<group>"; };
 		BD18843C2016FC86000DA074 /* Mao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mao.swift; sourceTree = "<group>"; };
 		BD204FCC201AD2E100965300 /* BAAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAction.swift; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD166D02203084C800CFE5C0 /* MapKit.framework in Frameworks */,
+				BD166D162032211400CFE5C0 /* MapKit.framework in Frameworks */,
 				7CBAB096A5461810D6A4A121 /* Pods_iBill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +218,7 @@
 		72DDCBFC20B4DD0471A0146A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BD166D01203084C800CFE5C0 /* MapKit.framework */,
+				BD166D152032211400CFE5C0 /* MapKit.framework */,
 				89268E954676FD783A0CE87F /* Pods_iBill.framework */,
 			);
 			name = Frameworks;
@@ -249,6 +249,7 @@
 		BD0A6470201653E0005B19CF /* iBill */ = {
 			isa = PBXGroup;
 			children = (
+				BD0A64A220165682005B19CF /* View */,
 				BD529A1020173BB500FB9193 /* Imgs */,
 				BD0A64A32016693D005B19CF /* Modules */,
 				BD0A6471201653E0005B19CF /* AppDelegate.swift */,
@@ -300,7 +301,6 @@
 				BD529A0D2017382200FB9193 /* Utils */,
 				BD1884392016FBB8000DA074 /* Mao */,
 				BDCFD29F201A34FD007EC389 /* Model */,
-				BD0A64A220165682005B19CF /* View */,
 				BD0A64A42016694D005B19CF /* Context.swift */,
 			);
 			path = Modules;
@@ -671,7 +671,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};

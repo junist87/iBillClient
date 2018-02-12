@@ -18,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // 이곳에서 최초 뷰 컨트롤러 지정
+        let mainViewController = IBillMainVC()
+        window?.rootViewController = mainViewController
+        window?.makeKeyAndVisible()
         return true
     }
 

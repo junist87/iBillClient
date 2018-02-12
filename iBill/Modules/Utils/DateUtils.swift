@@ -5,7 +5,7 @@
 
 import Foundation
 
-public class DateUtils {
+open class DateUtils {
     public init() {
         
     }
@@ -13,14 +13,14 @@ public class DateUtils {
     // 오늘날짜 서식 지정
     // - parameter format: 서식(옵션)
     // - return 오늘 날짜
-    func getToday(format: String? = "yyyy-MM-dd HH:mm:ss") -> String {
+    public func getToday(format: String? = "yyyy-MM-dd HH:mm:ss") -> String {
         let now = Date()
         let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter.string(from: now as Date)
     }
 
-    func getDate(date: String, format: String? = nil) -> Date! {
+    public func getDate(date: String, format: String? = nil) -> Date! {
         let formatter = DateFormatter()
         formatter.locale = NSLocale(localeIdentifier: "ko_KR") as Locale
         if format == nil {
@@ -38,7 +38,7 @@ public class DateUtils {
     // X주전/후 날짜 구하기
     // - parameter week: n (주단위)
     // - returns 계산된 날짜
-    func getSomeWeekDate(week: Double) -> Date {
+    public func getSomeWeekDate(week: Double) -> Date {
         let now = Date()
         let resultDate: Date
 
@@ -55,7 +55,7 @@ public class DateUtils {
     // - parameter date: 날짜
     // - parameter anotherDay: 다른날짜(옵션이며 미지정시 당일날짜)
     // - return 계산된 일자수
-    func getIntervalDays(date: Date?, anotherDay: Date? = nil) -> Double {
+    public func getIntervalDays(date: Date?, anotherDay: Date? = nil) -> Double {
 
         var interval: Double!
 
@@ -79,7 +79,7 @@ public class DateUtils {
     // - parameter sec: 초
     // - parameter baseDate: 기준일자
     // - return 계산된 결과날짜
-    func getCalcDate(year: Int, month: Int, day: Int, hour: Int,
+    public func getCalcDate(year: Int, month: Int, day: Int, hour: Int,
                      min: Int, sec: Int, baseDate: String? = nil) -> Date {
 
         let formatter = DateFormatter()
@@ -116,7 +116,7 @@ public class DateUtils {
     // - parameter start: 기준일자
     // - parameter max: 최대값
     // - return: 날짜 배열값
-    func getDaysArray(start: String, max: Int) -> [String] {
+    public func getDaysArray(start: String, max: Int) -> [String] {
 
         var result: [String] = []
         let formatter = DateFormatter()

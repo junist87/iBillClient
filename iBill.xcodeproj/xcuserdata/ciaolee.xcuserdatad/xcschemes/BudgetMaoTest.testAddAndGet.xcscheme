@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BD0A6484201653E1005B19CF"
+               BuildableName = "iBillTests.xctest"
+               BlueprintName = "iBillTests"
+               ReferencedContainer = "container:iBill.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BD0A6484201653E1005B19CF"
+               BuildableName = "iBillTests.xctest"
+               BlueprintName = "iBillTests"
+               ReferencedContainer = "container:iBill.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "AccountMaoTest">
+               </Test>
+               <Test
+                  Identifier = "BudgetMaoTest/testAddAndGetList">
+               </Test>
+               <Test
+                  Identifier = "IconsMaoTest">
+               </Test>
+               <Test
+                  Identifier = "SHA256Test">
+               </Test>
+               <Test
+                  Identifier = "SPMoneyMaoTest">
+               </Test>
+               <Test
+                  Identifier = "TextReaderTest">
+               </Test>
+               <Test
+                  Identifier = "iBillTests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
